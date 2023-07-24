@@ -190,19 +190,6 @@ function toggleMenu() {
 
 
 
-function removeHorizontalScroll() {
-      if (window.innerWidth <= document.body.scrollWidth) {
-        document.body.style.overflowX = "hidden";
-      } else {
-        document.body.style.overflowX = "auto";
-      }
-    }
-
-    // Chamada da função para remover a rolagem horizontal quando a página é carregada
-    window.onload = removeHorizontalScroll;
-
-    // Chamada da função para ajustar a rolagem quando o tamanho da tela é alterado
-    window.onresize = removeHorizontalScroll;
 
   </script>
 </body>
