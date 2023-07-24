@@ -7,6 +7,7 @@ img {
     margin: auto;
     left: 30px;
   }
+  
   @media screen and (max-width: 767px) {
     /* Centralizar todo o conteúdo verticalmente */
 img{
@@ -19,11 +20,12 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
+}
 
     /* Centralizar o cabeçalho */
     header .header-container {
