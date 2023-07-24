@@ -27,7 +27,7 @@ header {
 
     /* Centralizar o cabeçalho */
     header .header-container {
-      text-align: center;
+      text-align: left;
     }
 
     /* Centralizar o menu */
@@ -64,6 +64,10 @@ header {
     }
 
     h1 {
+      position: relative;
+
+      left: 90px;
+      text-align: center;
       font-size: 24px; /* Ajustar o tamanho da fonte do h1 */
     }
 
