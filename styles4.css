@@ -12,7 +12,13 @@ img {
 img{
   transform: scale(.9);
 }
-    
+header {
+  background-color: #222;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
     body {
       display: flex;
       flex-direction: column;
