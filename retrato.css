@@ -56,7 +56,7 @@ width: 100px;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 302px;
+
 }
 
 .header-container {
@@ -72,8 +72,8 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0;
-left: -60px;
-width: 300px;
+left: 60px;
+
 }
 
 header p {
@@ -488,10 +488,12 @@ background-color: #ddd; /* Cor de fundo quando o item do menu está em foco */
 
 
   h2 {
+    position: relative;
     font-size: 1.8em;
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
+    left: 30px;
   }
 
   p {
@@ -518,7 +520,7 @@ background-color: #ddd; /* Cor de fundo quando o item do menu está em foco */
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 400px;
+    width: 300px;
   }
 
   footer p {
