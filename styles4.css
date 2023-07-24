@@ -61,6 +61,11 @@ img {
       font-size: 18px; /* Ajustar o tamanho da fonte do p */
     }
 
+    /* Reduzir o max-width do h2 */
+    h2 {
+      max-width: 80%; /* Ajuste o valor do max-width como desejar */
+    }
+
     /* Estilos para o footer */
     footer {
       text-align: center;
