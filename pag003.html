@@ -177,16 +177,17 @@ function toggleMenu() {
   const menu = document.querySelector(".menu");
 
   // Mostra ou esconde o menu e alterna entre o ícone do hamburguer e "X"
-  if (menu.style.display === "none") {
-    menu.style.display = "block";
-    menuIcon.style.display = "none";
-    closeIcon.style.display = "block";
-  } else {
-    menu.style.display = "none";
-    menuIcon.style.display = "block";
-    closeIcon.style.display = "none";
-  }
+ if(menu.style.display === 'none') {
+  menu.style.display = 'block'
+  menuIcon.style.display = 'none'
+closeIcon.style.display = 'block'
+ } else {
+  menu.style.display = 'none'
+  closeIcon.style.display = 'none'
+  menuIcon.style.display = 'block'
+ }
 }
+
 
 
 
