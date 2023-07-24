@@ -36,6 +36,23 @@ body {
     nav.menu {
       text-align: center;
     }
+    .menu {
+      display: none;
+      position: absolute;
+      top: 160px;
+      left: 280px;
+      width: 200px; /* Definindo a largura do menu */
+      height: 900px;
+      background-color: #ffffff; /* Fundo branco para o menu */
+      /* Adiciona uma sombra ao menu */
+      transform: translateX(-100%); /* Esconde o menu à esquerda da tela */
+      transition: transform 0.3s ease; /* Adiciona uma transição suave */
+      border-radius: 0px 10px 10px 0px; /* Adiciona borda arredondada */
+      max-height: 300px; /* Define a altura máxima para a rolagem vertical */
+      max-width: 400px; /* Define a largura máxima para a rolagem horizontal */
+      overflow: auto; /* Habilita a rolagem quando o conteúdo exceder o tamanho máximo */
+      text-align: left;
+      }
 
     nav.menu ul {
       padding: 0;
