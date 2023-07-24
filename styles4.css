@@ -27,6 +27,13 @@ body {
   overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
 }
 
+/* Impedir que o usuário role a página horizontalmente */
+body, html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
     /* Centralizar o cabeçalho */
     header .header-container {
       text-align: left;
