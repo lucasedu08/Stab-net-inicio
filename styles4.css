@@ -55,6 +55,19 @@ img {
       padding: 20px;
       border: 1px solid #ccc;
     }
+
+    /* Estilos para centralizar h1 e p */
+    h1, p {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px; /* Ajustar o tamanho da fonte do h1 */
+    }
+
+    p {
+      font-size: 18px; /* Ajustar o tamanho da fonte do p */
+    }
   }
   h2 {
     position: relative;
