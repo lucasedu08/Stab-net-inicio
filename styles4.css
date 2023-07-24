@@ -64,6 +64,7 @@ img {
     /* Reduzir o max-width do h2 */
     h2 {
       max-width: 80%; /* Ajuste o valor do max-width como desejar */
+      width: 200px;
     }
 
     /* Estilos para o footer */
