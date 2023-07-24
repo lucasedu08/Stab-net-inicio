@@ -15,47 +15,34 @@ img {
       align-items: center;
     }
 
-    /* Estilos para o cabeçalho em dispositivos móveis */
-    #header {
-      flex-direction: column;
+    /* Centralizar o cabeçalho */
+    header .header-container {
       text-align: center;
-      padding: 20px;
     }
 
-    #header img {
-      filter: blur(1px); /* Aplicar filtro blur somente para a imagem no cabeçalho */
-      margin-bottom: 20px;
+    /* Centralizar o menu */
+    nav.menu {
+      text-align: center;
     }
 
-    .menu {
-      display: none;
-      flex-direction: column;
+    nav.menu ul {
+      padding: 0;
+      list-style: none;
     }
 
-    .menu li {
+    nav.menu li {
       padding: 10px;
+    }
+
+    /* Centralizar as informações */
+    main#informacoes-container {
       text-align: center;
-    }
-
-    .menu-icon,
-    .close-icon {
-      display: inline-block;
-    }
-
-    .close-icon {
-      display: none;
-    }
-
-    .menu.active {
-      display: flex;
-    }
-
-    /* Estilos para os links */
-    .link-container {
       width: 100%;
-      margin: 0; /* Remover a margem lateral */
       padding: 20px;
-      border: 1px solid #ccc;
+    }
+
+    .link-container {
+      margin-bottom: 20px;
     }
 
     /* Estilos para centralizar h1 e p */
