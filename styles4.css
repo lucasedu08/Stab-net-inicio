@@ -9,6 +9,10 @@ img {
   }
   @media screen and (max-width: 767px) {
     /* Centralizar todo o conteúdo verticalmente */
+img{
+  transform: scale(.9);
+}
+    
     body {
       display: flex;
       flex-direction: column;
